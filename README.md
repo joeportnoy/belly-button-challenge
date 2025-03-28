@@ -5,12 +5,15 @@
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [D3 + Plotly Visualizations](#d3--plotly-visualizations)
+- [Deployment](#deployment)
 
 ## Overview
 
 This interactive dashboard explores the *Belly Button Biodiversity* dataset, cataloging the microbial species that inhabit human navels. The project utilizes JavaScript, D3, and Plotly to visualize the data and dynamically update the charts and demographic information based on user input.
 
 Explore the live dashboard on [GitHub Pages](https://joeportnoy.github.io/belly-button-challenge/).
+
+![Dashboard Screenshot](images/joeportnoy-github-io-belly-button-challenge-2025.png)
 
 ---
 
@@ -20,12 +23,11 @@ Explore the live dashboard on [GitHub Pages](https://joeportnoy.github.io/belly-
 belly-button-challenge/
 │
 ├── static/
-│   ├── css/
 │   └── js/
 │       └── app.js        # Main JavaScript logic
 │
 ├── index.html            # Dashboard HTML layout
-├── samples.json          # Provided sample dataset (not accessed locally)
+├── samples.json          # Provided sample dataset
 ├── README.md             # Project documentation
 ```
 
